@@ -84833,7 +84833,7 @@ for(;;)switch(s){case 0:p=t.N
 o=A.au(["name",c,"phone",d,"department",a,"rating",e,"message",b],p,t.K)
 A.XF().$1("Submitting feedback: "+o.k(0))
 q=A.fw("https://script.google.com/macros/s/AKfycbwjXQKvMmuTyih47EJeZw8kU6jOWiJzrCU_pyqqtU_ecEArsjY-kYkTI9rughito3Wkxw/exec",0,null)
-p=A.au(["Content-Type","application/json"],p,p)
+p=A.au(["Content-Type","text/plain"],p,p)
 s=2
 return A.Q(A.aPv(q,B.db.UF(o,null),p),$async$vF)
 case 2:p=g.b
